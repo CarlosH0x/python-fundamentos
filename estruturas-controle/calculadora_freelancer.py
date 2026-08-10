@@ -5,7 +5,7 @@ nome_projeto = input("Digite o nome do projeto: ")
 horas_estimadas = int(input("Digite a quantidade de horas estimada para o projeto: "))
 valor_hora = float(input("Digite o valor da hora do projeto: "))
 
-# Cáculo do projeto
+# Cálculo do projeto
 custos_fixos = float(input("Digite os custos fixos do projeto: ")) # Ex: Software, internet, liz, etc
 receita_total = horas_estimadas * valor_hora
 lucro_liquido = receita_total - custos_fixos
